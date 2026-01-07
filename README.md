@@ -7,6 +7,6 @@ installation requirement:
 <h2> Inference </h2>    
 For face detection, run the following command:
 
-    python inference_detection.py --input input/sajjad.jpg
+    python inference_detection.py --input input/MBS.jpg
     
 
