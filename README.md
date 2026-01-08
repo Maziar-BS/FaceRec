@@ -16,4 +16,4 @@ Face Recognition will be done after executing:
 
     python inference_recognition.py --input ./io/input/MBS2.jpg --update
 
-By default, the output result will be stored at ./output repository.
+By default, the output result will be stored at `./output` repository.
