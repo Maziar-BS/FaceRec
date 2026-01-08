@@ -17,3 +17,20 @@ Face Recognition will be done after executing:
     python inference_recognition.py --input ./io/input/MBS2.jpg --update
 
 By default, the output result will be stored at `./output` repository.
+
+In order to have your desired faces recognized, the first thing to do is to put your images in the `./face_bank` directory. Consequently, you should name your directory branches and pictures as the following example:
+face_bank
+
+    │
+    └───Person1_Name
+    │   │   Person1_Name_image_1.jpg
+    │   │   Person1_Name_image_2.jpg
+    │   │   ...
+    │   
+    └───Person2_Name
+    │   │   Person1_Name_image_1.jpg
+    │   │   Person1_Name_image_2.jpg
+    │   │   ...
+    │
+    │
+    ...
