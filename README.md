@@ -19,8 +19,8 @@ Face Recognition will be done after executing:
 By default, the output result will be stored at `./output` repository.
 
 In order to have your desired faces recognized, the first thing to do is to put your images in the `./face_bank` directory. Consequently, you should name your directory branches and pictures as the following example:
-face_bank
 
+    face_bank
     │
     └───Person1_Name
     │   │   Person1_Name_image_1.jpg
@@ -34,3 +34,4 @@ face_bank
     │
     │
     ...
+Ultimately, run the same aforementioned commands with `--update` argument. Note that After each change in `./face_bank` directory, you should reuse `--update` argument.
