@@ -13,35 +13,35 @@ pip install -r requirements.txt
 
 For face detection, run the following command:
 ```
-python inference_detection.py --input input/sajjad.jpg
+python inference_detection.py --input input/MBS.jpg
 ```
 
-For face identification, feature extraction and compare, run the following command:
+For face identification, feature extraction and comparisons, run the following command:
 ```
-python inference_identification.py --input1 input/sajjad0.jpg --input2 input/sajjad1.jpg
+python inference_identification.py --input1 input/MBS0.jpg --input2 input/MBS1.jpg
 ```
 
 For face recognition, run the following command:
 ```
-python inference_recognition.py --input ./io/input/sajjad2.jpg --update
+python inference_recognition.py --input ./io/input/MBS2.jpg --update
 ```
 The output will be saved in `./output` by default.
 
-If you want recognize your own faces, first you should put your images in `./face_bank` directory with your names as directories name in this structure:
+If you want to recognize your own faces, first thing you should do is to put your images at `./face_bank` directory and name them as in the followed structure:
 ```
 face_bank
 │
-└───Ali
-│   │   ali_image_1.jpg
-│   │   ali_image_2.jpg
+└───Person1_Name
+│   │   Person1_Name_image_1.jpg
+│   │   Person1_Name_image_2.jpg
 │   │   ...
 │   
-└───Sara
-│   │   sara_image_1.jpg
-│   │   sara_image_2.jpg
+└───Person2_Name
+│   │   Person2_Name_image_1.jpg
+│   │   Person2_Name_image_2.jpg
 │   │   ...
 │
 │
 ...
 ```
-Then run same command as above with `--update` argument. Note that After each change in `./face_bank` directory, you should use `--update` again.
+Consequently, run the same commands as above with `--update` argument. Note that After each change in `./face_bank` directory, you should use `--update` argument again.
